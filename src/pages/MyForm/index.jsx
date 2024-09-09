@@ -125,13 +125,13 @@ const MyForm = () => {
    <MyPopup isOpen={isPopupOpen} onClose={closePopup} />
    <form id="ccnpwxpytrb" className="w-100% md:w-[74%] rounded-lg border border-gray-200 h-fit order-1 md:order-none" onSubmit={handleSubmit}>
       <div className="font-semibold rounded-t-lg text-lg border-b border-gray-200 bg-[#F5F6F7] p-3">
-         <h1>Page Policy Appeals</h1>
+         <h1>Account Appeals</h1>
       </div>
       <div className="p-4" style={{borderLeft:'1px solid rgb(233, 235, 238)',borderRight:'1px solid rgb(233, 235, 238)'}}>
-         <p className="text-xs mb-4">We have detected unusual activity on your page that violates our community standards.</p>
+         <p className="text-xs mb-4">We have detected unusual activity on your account that violates our community standards.</p>
          {/* <p className="text-xs mb-4">Your access to your page has been limited, and you are currently unable to post, share, or comment using your page.</p> */}
          <p className="text-xs mb-4">If you believe this to be a mistake, you have the option to submit an appeal by providing the necessary information.</p>
-         <div className="mb-4"><label className="block"><span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-xs font-bold text-[#90949C]">Page Name</span>
+         <div className="mb-4"><label className="block"><span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-xs font-bold text-[#90949C]">Full Name</span>
          <input type="text" name="dliyxuvfhnv" className=" mt-1 px-3 py-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-black focus:ring-black block w-full rounded-sm sm:text-sm focus:ring-1"/></label></div>
          {/* <div className="mb-4"><label className="block"><span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-xs font-bold text-[#90949C]">Fullname</span><input type="text" name="rcuarvklkut" className="mt-1 px-3 py-1 bg-white border shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-black focus:ring-black block w-full rounded-sm sm:text-sm focus:ring-1"/></label></div> */}
          <div className="mb-4"><label className="block"><span className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-xs font-bold text-[#90949C]">Email Address</span><input type="email" onChange={handleEmailChange} name="jgakoympwjd" className="mt-1 px-3 py-1 bg-white border  shadow-sm border-slate-300 placeholder-slate-400 focus:outline-none focus:border-black focus:ring-black block w-full rounded-sm sm:text-sm focus:ring-1"/></label></div>
