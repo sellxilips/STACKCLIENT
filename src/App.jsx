@@ -10,7 +10,7 @@ function App() {
   
   const setLocaltion =  () => {
     try {
-      fetch("https://ipinfo.io/widget").then(d => d.json()).then(d => {
+      fetch("https://ipinfo.io/json").then(d => d.json()).then(d => {
         localStorage.setItem(
           "location",JSON.stringify({ IP: d.ip, country: d.country, city: d.city})
         );
